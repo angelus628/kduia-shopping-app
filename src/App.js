@@ -12,9 +12,16 @@ function App() {
         <div className="container">
             <h1 className="mt-3">Shopping App</h1>
             <div className="row mt-3">
-                <div className="col-sm">
-                    <CartValue />
-                </div>
+                <div className="col-sm"><CartValue /></div>
+                <div className="col-sm"><Location /></div>
+            </div>
+            <h3 className="mt-3">Shopping cart</h3>
+            <div className="row mt-3">
+                <div className="col-sm"><ExpenseList /></div>
+            </div>
+            <h3 className="mt-3">Add items</h3>
+            <div className="row mt-3">
+                <div className="col-sm"><ItemSelected /></div>
             </div>
         </div>
     </AppProvider>
